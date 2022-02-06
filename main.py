@@ -1,4 +1,4 @@
-# (c) CW4RR10R | @AbirHasan2005
+# (c) CW4RR10R | @harshil8981
 
 import os
 import uuid
@@ -45,19 +45,19 @@ if Credentials.ABOUT_MSG:
     about_text = Credentials.ABOUT_MSG
 else:
     about_text = """
-🤖 **My Name:** [Telegraph Image Bot](https://t.me/AH_TelegraphBot)
+🤖 **My Name:** [Telegraph Image Bot](https://t.me/Tele_uploader_bot)
 
 📝 **Language:** [Python 3](https://www.python.org)
 
 📚 **Framework:** [Pyrogram](https://github.com/pyrogram/pyrogram) & [Telegraph](https://pypi.org/project/telegraph)
 
-📡 **Hosted on:** [Heroku](https://heroku.com/deploy?template=https://github.com/Discovery-Projects/Image-UploadBot/tree/master)
+📡 **Hosted on:** [Heroku](https://heroku.com/deploy?template=https://github.com/harshil8981/Image-Upload-HP-Bot/tree/master)
 
-👨‍💻 **Developer:** @AbirHasan2005
+👨‍💻 **Developer:** @Mrkiller_1109
 
-👥 **Support Group:** [Linux Repositories](https://t.me/linux_repo)
+👥 **Support Group:** [HP Bot Discuss](https://t.me/HP_Bot_discuss_group)
 
-📢 **Updates Channel:** [Discovery Projects](https://t.me/Discovery_Updates)
+📢 **Updates Channel:** [HP bot update](https://t.me/Hp_botupdate)
 """
 async def send_msg(user_id, message):
     try:
@@ -90,7 +90,7 @@ async def start(client, message):
             if user.status == "kicked":
                await client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned!\nNow Your Can't Use Me. Contact my [Support Group](https://t.me/linux_repo).",
+                   text="Sorry Sir, You are Banned!\nNow Your Can't Use Me. Contact my [Support Group](https://t.me/HP_Bot_discuss_group).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -112,7 +112,7 @@ async def start(client, message):
         except Exception:
             await client.send_message(
                 chat_id=message.chat.id,
-                text="Something went Wrong. Contact my [Support Group](https://t.me/linux_repo).",
+                text="Something went Wrong. Contact my [Support Group](https://t.me/HP_Bot_discuss_group).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
@@ -122,8 +122,8 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="Updates Channel", url="https://t.me/Discovery_Updates"),
-                    InlineKeyboardButton(text="Support Group", url="https://t.me/linux_repo")
+                    InlineKeyboardButton(text="Updates Channel", url="https://t.me/Hp_botupdate"),
+                    InlineKeyboardButton(text="Support Group", url="https://t.me/HP_Bot_discuss_group")
                 ],
                 [
                     InlineKeyboardButton("About", callback_data="about")
@@ -220,7 +220,7 @@ async def getimage(client, message):
             if user.status == "kicked":
                await client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned!\nNow Your Can't Use Me. Contact my [Support Group](https://t.me/linux_repo).",
+                   text="Sorry Sir, You are Banned!\nNow Your Can't Use Me. Contact my [Support Group](https://t.me/HP_Bot_discuss_group).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -242,7 +242,7 @@ async def getimage(client, message):
         except Exception:
             await client.send_message(
                 chat_id=message.chat.id,
-                text="Something went Wrong. Contact my [Support Group](https://t.me/linux_repo).",
+                text="Something went Wrong. Contact my [Support Group](https://t.me/HP_Bot_discuss_group).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
@@ -291,8 +291,8 @@ async def about_meh(_, query):
 async def go_to_home(_, query):
     buttons = [
         [
-            InlineKeyboardButton("Support Group", url="http://t.me/linux_repo"),
-            InlineKeyboardButton("Updates Channel", url="http://t.me/Discovery_Updates")
+            InlineKeyboardButton("Support Group", url="https://t.me/HP_Bot_discuss_group"),
+            InlineKeyboardButton("Updates Channel", url="https://t.me/Hp_botupdate")
         ],
         [
             InlineKeyboardButton("About", callback_data="about")

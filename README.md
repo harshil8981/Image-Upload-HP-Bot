@@ -3,20 +3,20 @@
 > With MongoDB & Broadcast Plugin!
 
 ## Deploy to Heroku:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Discovery-Projects/Image-UploadBot/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/harshil8981/Image-Upload-HP-Bot/tree/master)
 
 ## Configs:
 - `API_ID`
-	- Get this from [@TeleORG_Bot](https://t.me/TeleORG_Bot)
+	- Get this from [@Mytele_ORGbot](https://t.me/Mytele_ORGbot)
 - `API_HASH`
-	- Get this from [@TeleORG_Bot](https://t.me/TeleORG_Bot)
+	- Get this from [@Mytele_ORGbot](https://t.me/Mytele_ORGbot)
 - `BOT_TOKEN`
 	- Get this from [@BotFather](https://t.me/BotFather)
 - `SESSION_NAME`
 	- Any Name of Bot Session. Keep this default.
 - `MONGODB_URI`
 	- Put MongoDB URL *(With Username & Password!)*
-	- **If Need Help:** Ask in [@linux_repo](https://t.me/linux_repo)
+	- **If Need Help:** Ask in [@Mrkiller](https://t.me/Mrkiller_1109)
 - `HOME_MSG`
 	- Start Command Message. Better Keep this default.
 - `ABOUT_MSG`
@@ -31,9 +31,9 @@
 * Telegraph
 
 ### Developers:
-- [@CW4RR10R](https://github.com/CW4RR10R)
+- [@Mrkiller_1109](https://github.com/Mrkiller_1109)
 	- Main Telegraph Upload Coder
-- [@AbirHasan2005](https://github.com/AbirHasan2005)
+- [Hp_botupdate](https://github.com/Hp_botupdate)
 	- Added Database
 	- Added Broadcast
 	- Added Channel Force Sub

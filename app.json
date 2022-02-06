@@ -1,8 +1,8 @@
 {
   "name": "Telegram Image Upload Bot",
-  "description": "A bot to Upload Telegram Images to Telegraph by @AbirHasan2005",
-  "repository": "https://github.com/Discovery-Projects/Image-UploadBot",
-  "website": "https://t.me/Discovery_Updates",
+  "description": "A bot to Upload Telegram Images to Telegraph by @harsil8981",
+  "repository": "https://github.com/harshil8981/Image-Upload-HP-Bot",
+  "website": "https://t.me/Hp_botupdate",
   "logo": "https://telegra.ph/file/33adaf8d6c398edf81967.jpg",
   "keywords": ["telegram", "telegraph", "image-uploader","telegram-bot"],
   "env": {
@@ -20,7 +20,7 @@
     },
     "SESSION_NAME": {
       "description": "Any Name of Bot Session. Can Keep This Default.",
-      "value": "ImageUploaderBot"
+      "value": "ImageUploaderHPBot"
     },
     "UPDATES_CHANNEL": {
       "description": "Any Telegram Channel Username for Force Sub.",
@@ -28,7 +28,7 @@
       "required": false
     },
     "MONGODB_URI": {
-      "description": "MongoDB URL with Username & Password. If need help ask in @linux_repo !!",
+      "description": "MongoDB URL with Username & Password. If need help ask in @Mrkiller_1109 !!",
       "value": ""
     },
     "ADMIN": {

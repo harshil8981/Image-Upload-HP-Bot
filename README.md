@@ -3,7 +3,7 @@
 > With MongoDB & Broadcast Plugin!
 
 ## Deploy to Heroku:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/harshil8981/Image-Upload-HP-Bot/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/harshil8981/Image-Upload-HP-Bot)
 
 ## Configs:
 - `API_ID`

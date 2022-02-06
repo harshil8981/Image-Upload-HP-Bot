@@ -1,5 +1,5 @@
 import os
-# Use @BotFather ~ @TeleORG_Bot
+# Use @BotFather ~ @Mytele_ORGbot
 
 class Credentials:
 	BOT_TOKEN = os.environ.get("BOT_TOKEN")
